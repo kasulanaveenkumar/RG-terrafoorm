@@ -14,6 +14,6 @@ provider "azurerm" {
 
 # Create a resource group
 resource "azurerm_resource_group" "createrg" {
-  name     = "TESTING"
+  name     = "TEST"
   location = "eastus"
 }
